@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "tailwind": "tailwind-config-viewer -o",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -10,10 +11,15 @@
   },
   "dependencies": {
     "autoprefixer": "10.4.16",
+    "bcrypt": "^5.1.1",
+    "mongodb": "^6.1.0",
+    "mongoose": "^7.5.2",
     "next": "13.5.2",
+    "next-auth": "^4.23.1",
     "postcss": "8.4.30",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "tailwind-config-viewer": "^1.7.2",
     "tailwindcss": "3.3.3"
   }
 }
